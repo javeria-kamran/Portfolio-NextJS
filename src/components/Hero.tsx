@@ -27,7 +27,7 @@ const Hero = () => {
               data-aos-delay="800"
               className="mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]"
             >
-              A versatile professional with a Bachelor's degree in Commerce and
+              A versatile professional with a Bachelor&#39;s degree in Commerce and
               a strong foundation in accounting and finance. Proficient in web
               development, including frameworks, programming languages, and
               development tools, with expertise in leveraging AI and automation

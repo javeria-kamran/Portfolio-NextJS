@@ -24,9 +24,9 @@ const ClientReviewCard = ({ image, user, role }: Props) => {
         </div>
         <p className="text-[15px] text-white opacity-65 mt-[3rem] text-center">
           The development team consistently delivered high-quality work and
-          demonstrated a deep understanding of the project's goals. Their
+          demonstrated a deep understanding of the project&#39;s goals. Their
           effective communication and problem-solving skills were invaluable in
-          ensuring the project's success. The final product exceeded
+          ensuring the project&#39;s success. The final product exceeded
           expectations, and we are very pleased with the outcome.!
         </p>
         <div className="flex items-center space-x-1 justify-center mt-[0.4rem]">

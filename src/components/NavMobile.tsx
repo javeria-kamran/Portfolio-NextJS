@@ -17,7 +17,7 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
             <div className={`fixed top-0 ${navOpenStyle} transform transition-all duration-500 z-[10000] left-0 right-0 bottom-0 bg-black opacity-70 w-[100vw] h-[100vh]`} />
 
             {/* Mobile Nav */}
-            <ul className={`text-white ${navOpenStyle} fixed flex items-center flex-col justify-center h-full transform transition-all duration-300 delay-300 w-[60%] bg-gradient-to-r from-emerald-800 to-gray-900 space-y-14 z-[10006]`}>
+            <ul className={`text-white ${navOpenStyle} fixed flex items-center flex-col justify-center h-full transform transition-all duration-300 delay-300 w-[60%] bg-gradient-to-r from-cyan-800 via-cyan-500 to-cyan-400 space-y-14 z-[10006]`}>
                 <li><Link className="nav_link text-[25px] sm:text-[30px]" href="#home">Home</Link></li>
                 <li><Link className="nav_link text-[25px] sm:text-[30px]" href="#about">About</Link></li>
                 <li><Link className="nav_link text-[25px] sm:text-[30px]" href="#services">Services</Link></li>

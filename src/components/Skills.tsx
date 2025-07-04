@@ -44,49 +44,49 @@ const Skills = () => {
               data-aos-anchor-placement=" top-center"
               data-aos-delay="600"
             >
-              <SkillCard title="JavaScript" image="/js.svg" percent="95%" />
+              <SkillCard title="JavaScript" image="/js.svg" percent="98%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
               data-aos-delay="200"
             >
-              <SkillCard title="TypeScript" image="/ts.svg" percent="85%" />
+              <SkillCard title="TypeScript" image="/ts.svg" percent="98%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
               data-aos-delay="400"
             >
-              <SkillCard title="Node Js" image="/node.svg" percent="75%" />
+              <SkillCard title="Node Js" image="/node.svg" percent="85%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
               data-aos-delay="600"
             >
-              <SkillCard title="React" image="/react.svg" percent="80%" />
+              <SkillCard title="React" image="/react.svg" percent="85%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement=" top-center"
               data-aos-delay="1000"
             >
-              <SkillCard title="Next.js" image="/nextjs.svg" percent="85%" />
+              <SkillCard title="Next.js" image="/nextjs.svg" percent="98%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
               data-aos-delay="400"
             >
-              <SkillCard title="MongoDB" image="/mongo.svg" percent="50%" />
+              <SkillCard title="MongoDB" image="/mongo.svg" percent="65%" />
             </div>
             <div
               data-aos="flip-left"
               data-aos-anchor-placement="top-center"
               data-aos-delay="600"
             >
-              <SkillCard title="Python" image="/python.svg" percent="55%" />
+              <SkillCard title="Python" image="/python.svg" percent="98%" />
             </div>
           </div>
         </div>

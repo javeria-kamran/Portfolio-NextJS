@@ -10,11 +10,11 @@ const Footer = () => {
     <div className="pt-[5rem] pb-[3rem] bg-black">
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px] pb-5 border-gray-600 border-opacity-40">
         <div>
-          <div className="font-logo text-white text-[18px]">
+          <div className="font-logo text-white text-[12px]">
             <span className="text-[30px] md:text[40px] text-cyan-500">
               JK{" "}
             </span>
-            Developer
+            AI Engineer
           </div>
           <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
           My expertise lies in leveraging advanced technologies to deliver innovative and effective products.
@@ -72,13 +72,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center gap-10 mt-[1.4rem] w-[80%] mx-auto text-white opacity-70">
-        <Image
-          src="/Gemini_Generated_Image_wbyphcwbyphcwbyp.jpeg"
-          alt="logo"
-          width={25}
-          height={25}
-          className="cursor-pointer hover:animate-slowspin"
-        />
+       
         &#169; copyright 2024 All rights reserved.
       </div>
     </div>

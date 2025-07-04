@@ -34,7 +34,7 @@ const AboutMe = () => {
 
             <div className="flex items-center space-x-4">
               <CheckIcon className="w-[2rem] h-[2rem] text-cyan-500" />
-              <p className="text-[18px] text-white">Mern Development</p>
+              <p className="text-[18px] text-white">MERN Development</p>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const AboutMe = () => {
               data-aos-delay="200"
               className="p-6 text-center bg-gradient-to-tl from-cyan-800 to-gray-900 shadow-grey-900"
             >
-              <p className="text-[50px] text-white font-bold opacity-80">1</p>
+              <p className="text-[50px] text-white font-bold opacity-80">1+</p>
               <p className="text-[20px] text-white font-600">Year Experience</p>
             </div>
             <div
@@ -55,7 +55,7 @@ const AboutMe = () => {
               data-aos-delay="200"
               className="p-6 text-center bg-gradient-to-tr from-cyan-800 to-gray-900 shadow-grey-900"
             >
-              <p className="text-[50px] text-white font-bold opacity-80">75+</p>
+              <p className="text-[50px] text-white font-bold opacity-80">25+</p>
               <p className="text-[20px] text-white font-600">Happy Clients</p>
             </div>
             <div
@@ -65,7 +65,7 @@ const AboutMe = () => {
               className="p-6 text-center bg-gradient-to-bl from-cyan-800 to-gray-900 shadow-grey-900"
             >
               <p className="text-[50px] text-white font-bold opacity-80">
-                150+
+                15+
               </p>
               <p className="text-[20px] text-white font-600">Projects Done</p>
             </div>

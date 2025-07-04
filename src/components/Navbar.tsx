@@ -1,9 +1,7 @@
 "use client"
 import { Bars3CenterLeftIcon } from '@heroicons/react/16/solid'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from "next/link"
-import Image from "next/image"
-import { useState, useEffect } from "react"
 
 interface Props {
     openNav: () => void
@@ -17,30 +15,26 @@ const Navbar = ({ openNav }: Props) => {
         const handler = () => {
             if (window.scrollY >= 90) {
                 setNavSticky(true)
-            }
-            if (window.scrollY <= 90) {
+            } else {
                 setNavSticky(false)
             }
         }
         window.addEventListener("scroll", handler)
+        return () => window.removeEventListener("scroll", handler)
     }, [])
 
-    const sticktStyle = navSticky ? "bg-gradient-to-r from-cyan-300 via-teal-850 to-cyan-900 ..." : ""
+    const stickyStyle = navSticky
+        ? "bg-black bg-opacity-30 backdrop-blur-md shadow-md"
+        : "bg-transparent"
 
     return (
-        <div className={`fixed w-[100%] ${sticktStyle} transition-all duration-300 z-[1000]`}>
+        <div className={`fixed top-0 w-full ${stickyStyle} transition-all duration-300 z-[1000]`}>
             <div className="flex items-center h-[12vh] justify-between w-[90%] mr-5 ml-7 lg:mx-auto">
-                <div className='flex gap-3'>
-                    <Image
-                        src=""
-                        alt="logo"
-                        width={40}
-                        height={40}
-                        className="cursor-pointer hover:animate-slowspin"
-                    />
+                <div className='flex gap-3 items-center'>
+                    {/* Logo image removed as requested */}
                     <div className="font-logo text-white text-[18px]">
-                        <span className="text-[30px] md:text-[40px] text-cyan-600 ">JK </span>
-                        Developer
+                        <span className="text-[30px] md:text-[40px] bg-gradient-to-r from-cyan-400 via-cyan-600 to-cyan-800 bg-clip-text text-transparent">JK </span>
+                        AI Engineer
                     </div>
                 </div>
                 <ul className="md:flex hidden items-center space-x-10">
@@ -52,7 +46,8 @@ const Navbar = ({ openNav }: Props) => {
                 </ul>
                 <Bars3CenterLeftIcon
                     onClick={openNav}
-                    className="w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-100" />
+                    className="w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-100 cursor-pointer"
+                />
             </div>
         </div>
     )

@@ -40,8 +40,6 @@ const HomePage = () => {
       <Services />
       <Skills />
       <Project />
-      <Price />
-      <Reviews />
       <Contact />
     </div>
   )

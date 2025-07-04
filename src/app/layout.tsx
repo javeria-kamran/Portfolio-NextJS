@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Javeria kamran",
-  description: "My Portfolio Website",
+  description: "Portfolio Website",
  
   manifest: '/site.webmanifest'
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-primary">
+      <body className="font-primary scroll-smooth">
         {children}
         <Footer />
       </body>

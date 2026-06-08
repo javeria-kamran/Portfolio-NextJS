@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import TypeWriteEffect from "./Helper/TypeWriteEffect";
 
 const Hero = () => {
@@ -47,8 +46,8 @@ const Hero = () => {
               </a>
 
               <a
-                href="/javeria-kamran.pdf"
-                download="javeria-kamran.pdf"
+                href="\Javeria-Kamran-Resume.pdf"
+                download="Javeria-Kamran-Resume.pdf"
                 className="inline-block" // Ensures styling remains intact
               >
                 <button

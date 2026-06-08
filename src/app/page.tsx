@@ -12,6 +12,7 @@ import Price from "@/components/Price"
 import Reviews from "@/components/Reviews"
 import Contact from "@/components/Contact"
 import AOS from 'aos';
+// @ts-ignore: Ignore CSS side-effect import without declarations
 import 'aos/dist/aos.css';
 
 const HomePage = () => {
